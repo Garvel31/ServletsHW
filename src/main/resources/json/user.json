@@ -1,0 +1,58 @@
+{
+  "firstName": "Json",
+  "lastName": "Smith",
+  "age": 30,
+  "address": {
+    "streetAddress": "666 1nd Street",
+    "city": "New York",
+    "state": "NY",
+    "postalCode": 10021
+  },
+  "phoneNumbers": [
+    {
+      "type": "home",
+      "number": "542 666-1234"
+    },
+    {
+      "type": "fax",
+      "number": "653 666-4567"
+    }
+  ],
+  "friends": [
+    {
+      "firstName": "Test",
+      "lastName": "Snow",
+      "age": 20,
+      "phoneNumbers": [
+        {
+          "type": "home",
+          "number": "141 111-1234"
+        }
+      ],
+      "friends": [
+        {
+          "firstName": "UnknownFirstName",
+          "lastName": "UnknownLastName",
+          "age": 999,
+          "phoneNumbers": [
+            {
+              "type": "home",
+              "number": "000 000-0000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "firstName": "Flash",
+      "lastName": "Tompson",
+      "age": 23,
+      "phoneNumbers": [
+        {
+          "type": "home",
+          "number": "999 111-1234"
+        }
+      ]
+    }
+  ]
+}
